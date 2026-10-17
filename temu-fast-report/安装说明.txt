@@ -1,0 +1,11 @@
+TEMU 快速报单技能（Windows 11）
+
+1. 先完整解压 ZIP，再双击 install.cmd。无需管理员权限；如弹出安全提示，选择“运行”。
+2. 按提示输入你的报单名（会写入采购单 F 列和文件名，例如：张三）。
+3. 安装程序会把技能放到当前用户的 .codex\skills\temu-fast-report，并在桌面创建空白的“报单记忆.xlsx”和“店铺属性库”文件夹（已存在则不覆盖）。
+4. 重新启动 Codex，输入 $temu-fast-report 使用。
+
+报单时需要可运行的 Python，并安装 openpyxl、Pillow、lxml：python -m pip install openpyxl Pillow lxml
+修改报单名：重新运行 install.cmd，或用记事本修改 %USERPROFILE%\.codex\skills\temu-fast-report\config\settings.json 里的 reporter。
+
+完整说明见 README.md，或项目主页：https://github.com/g3448806177-art/xujunbin-guide/tree/main/temu-fast-report

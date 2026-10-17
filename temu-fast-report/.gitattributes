@@ -1,0 +1,5 @@
+* text=auto
+# Windows 安装脚本保持 CRLF 原样（install.ps1 带 UTF-8 BOM，Windows PowerShell 5.1 才能正确读取中文）
+*.cmd -text
+*.ps1 -text
+*.xlsx binary

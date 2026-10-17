@@ -1,0 +1,4 @@
+interface:
+  display_name: "TEMU 快速报单"
+  short_description: "TEMU 半托管报单、搜款匹配与采购表生成"
+  default_prompt: "Use $temu-fast-report to process my TEMU replenishment workbook and generate the purchase-order report."

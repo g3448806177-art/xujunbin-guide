@@ -1,0 +1,4 @@
+interface:
+  display_name: "jst"
+  short_description: "按口令开关先理解再审批，批准后按任务难度分配子体模型并精简上下文"
+  default_prompt: "使用 $jst，开启先理解再审批；每次批准后按任务难度分配子体模型，减少不必要的 token 消耗。"
